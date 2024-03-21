@@ -21,9 +21,9 @@ def nanopb_deps():
     if "rules_python" not in native.existing_rules():
         http_archive(
             name = "rules_python",
-            sha256 = "5fa3c738d33acca3b97622a13a741129f67ef43f5fdfcec63b29374cc0574c29",
-            strip_prefix = "rules_python-0.9.0",
-            url = "https://github.com/bazelbuild/rules_python/archive/refs/tags/0.9.0.tar.gz",
+            sha256 = "a644da969b6824cc87f8fe7b18101a8a6c57da5db39caa6566ec6109f37d2141",
+            strip_prefix = "rules_python-0.20.0",
+            url = "https://github.com/bazelbuild/rules_python/archive/refs/tags/0.20.0.tar.gz",
         )
 
     # Setup grpc tools.
